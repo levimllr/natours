@@ -1,0 +1,2 @@
+# Don't sync node_modules folder!
+node_modules/
