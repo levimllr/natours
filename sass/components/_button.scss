@@ -15,6 +15,10 @@
       // Change for the <button> element
       border: none;
       cursor: pointer;
+
+      @include respond(tab-land) {
+        text-align: center;
+      }
     }
   
     &:hover {
@@ -31,8 +35,6 @@
       outline: none;
       transform: translateY(-1px);
       box-shadow: 0 .5rem 1rem rgba($color-black, .2);
-  
-  
     }
   
     &--white {
