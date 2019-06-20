@@ -32,3 +32,9 @@ body {
     padding: 0;
   }
 }
+
+// custom text selection
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
